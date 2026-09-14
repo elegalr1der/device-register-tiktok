@@ -22,9 +22,7 @@ def musically_md5(string) -> str:
   return md5(string.encode()).hexdigest().upper()
 
 
-
 t = time()
-
 litters = 'qwertyuiopasdfghjklzxcvbnm1234567890'
 
 
